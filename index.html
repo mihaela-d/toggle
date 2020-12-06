@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>Titlu site</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+
+		<div id="main-container">
+			
+			<!-- sidebar -->
+			<div class="sidebar" style="">
+				<h1>Titlu site</h1>
+				<ul>
+					<li>
+						<a href="#">Link test A</a>
+					</li>
+					<div class="sublink">
+						<li>
+							<a href="#">Link test B</a>
+							<div class="sublink-content">
+								<ul>
+									<li>
+										<a href="#">Sub link B1</a>
+									</li>
+									<li>
+										<a href="#">Sub link B1</a>
+									</li>
+									<li>
+										<a href="#">Sub link B1</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</div>
+					<li>
+						<a href="#">Link test C</a>
+					</li>
+					<li>
+						<a href="#">Link test D</a>
+					</li>
+					<li>
+						<a href="#">Link test E</a>
+					</li>
+				</ul>
+				<button class="btnchange">S</button>
+			</div>
+
+			<!-- topbar -->
+			<div class="topbar" style="display: none;">
+				<div>
+					<ul>
+					<li id="title">Titlu site</li>
+					<li><a href="#">Link test A</a></li>
+					<li><a href="#">Link test B</a>
+						<ul>
+							<li><a href="#">Sub link B1</a></li>
+							<li><a href="#">Sub link B1</a></li>
+							<li><a href="#">Sub link B1</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Link test C</a></li>
+					<li><a href="#">Link test D</a>
+						<ul>
+							<li><a href="#">Sub link D1</a></li>
+							<li><a href="#">Sub link D1</a></li>
+							<li><a href="#">Sub link D1</a></li> 
+						</ul>
+					</li>
+					<li><a href="#">Link test E</a></li>
+					</ul> 
+				</div>
+				<button class="btnchange" style="display: block;" >S</button>
+			</div>
+
+			<!-- main-content -->
+			<div id="content">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tempore
+				   quod cumque modi placeat ipsum quisquam, beatae voluptatem, nemo, sed qui 
+				   dolorum. Ad uscipit officiis nesciunt adipisci quasi tempore tempora!</p>
+			</div>
+		</div>
+
+		<!-- Jquery file -->
+		<script src="./js/jquery.3.5.1.js"></script>
+
+		<!-- Custom js file -->
+		<script src="./js/main.js"></script>
+	</body>
+</html>
